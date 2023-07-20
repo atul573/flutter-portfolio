@@ -186,11 +186,20 @@ flutter run
 ## Step 5: Run the app (In Case of FlutLab)
 1. click on the top-left icon to run the emulator.
 
+## Step 6: Adding more feature
+Use your creativity to enhance app's experience
+
+Tip:
+Added intent on click
+Change Background color
+Try different text font
+
+
 
 ## Conclusion
 
 Congratulations! You've just created a basic Portfolio app using Flutter. You've learned how to use various widgets to build the user interface and display contact information like a Portfolio. Feel free to enhance the app by adding more features and personalizing it to your liking.
 
-You can find the complete source code for this codelab on [GitHub](https://github.com/atul573/flutter-businessCard).
+You can find the complete source code for this codelab on [GitHub](https://github.com/atul573/flutter-portfolio).
 
 Happy coding! 🚀
