@@ -120,6 +120,55 @@ class PortfolioHome extends StatelessWidget {
 
 
 ```
+## Code Description
+This is a simple Flutter code that creates a basic portfolio app with the developer's profile information displayed in a structured layout. Let's go through the code step by step to understand what each part does:
+
+1. Import statements:
+   - The code imports two packages: `flutter/material.dart` and `font_awesome_flutter/font_awesome_flutter.dart`.
+   - `flutter/material.dart` contains Flutter's material design widgets, which are used to create the user interface.
+   - `font_awesome_flutter/font_awesome_flutter.dart` provides access to a collection of icons from the FontAwesome icon library.
+
+2. `main()` function:
+   - The entry point of the Flutter app. It calls the `runApp()` function to start the app by passing an instance of the `Portfolio` widget.
+
+3. `Portfolio` class:
+   - A StatelessWidget that represents the root of the app.
+   - It returns a MaterialApp widget, which is a container for the entire application and configures some basic settings for the app.
+
+4. `PortfolioHome` class:
+   - Another StatelessWidget that represents the home page of the portfolio app.
+   - It returns a Scaffold widget, which provides a basic structure for the app's layout, including an app bar and body.
+
+5. `Scaffold` widget:
+   - The main container that holds the entire UI of the app.
+   - It contains an AppBar as the top bar with the title "My Portfolio."
+
+6. `Center` widget:
+   - The body of the app is wrapped in a Center widget, which centers its child widget both horizontally and vertically on the screen.
+
+7. `Column` widget:
+   - The child of the Center widget is a Column, which is used to display its children widgets in a vertical arrangement.
+
+8. `CircleAvatar` widget:
+   - Displays a circular avatar with the developer's profile image.
+   - The image is fetched from the 'images/profile.jpeg' file.
+
+9. `Text` widgets:
+   - Display the developer's name and job title.
+   - The name is styled with a larger font size and bold text, while the job title is styled with a smaller font size and grey color.
+
+10. `Card` widgets:
+   - Each card represents a section of the developer's contact information.
+   - They contain a ListTile, which is a predefined widget to display a leading icon and a title.
+
+11. `Icon` widget:
+   - Displays an icon from the FontAwesome icon library.
+   - The leading icon in each ListTile indicates the type of contact information (phone, email, website).
+
+12. `Text` widget in ListTile:
+   - Displays the actual contact information (phone number, email address, website URL).
+
+Overall, this code sets up a portfolio app with the developer's profile information, including their name, job title, profile picture, and contact details displayed in a clean and organized layout. It uses Flutter's material design and FontAwesome icons to enhance the visual appeal of the app.
 
 ## Step 4: Prepare your assets
 
