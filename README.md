@@ -189,10 +189,10 @@ flutter run
 ## Step 6: Adding more feature
 Use your creativity to enhance app's experience
 
-Tip:
-Added intent on click
-Change Background color
-Try different text font
+### Tip:
+1. Added intent on click 
+2. Change Background color
+3. Try different text font
 
 
 
