@@ -1,6 +1,6 @@
-# Flutter Business Card App Codelab
+# Flutter Portfolio App Codelab
 
-In this codelab, we'll walk you through the process of creating a simple business card app using Flutter. The app will display the user's contact information like a business card, and you'll learn how to use Flutter widgets to create a visually appealing and functional UI.
+In this codelab, we'll walk you through the process of creating a simple Portfolio app using Flutter. The app will display the user's contact information like a Portfolio, and you'll learn how to use Flutter widgets to create a visually appealing and functional UI.
 
 ## Prerequisites
 
@@ -15,8 +15,8 @@ Before you begin, ensure you have the following:
 2. Create a new Flutter project by running the following command:
 
 ```bash
-flutter create business_card_app
-cd business_card_app
+flutter create portfolio_app
+cd portfolio_app
 ```
 ## Step 1: Create a new Flutter project (Alternative )
 If you prefer not to set up the development environment locally, you can try this project on FlutLab. Follow these steps:
@@ -46,24 +46,24 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 void main() {
-  runApp(BusinessCardApp());
+  runApp(Portfolio());
 }
 
-class BusinessCardApp extends StatelessWidget {
+class Portfolio extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: BusinessCard(),
+      home: PortfolioHome(),
     );
   }
 }
 
-class BusinessCard extends StatelessWidget {
+class PortfolioHome extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('My Business Card'),
+        title: Text('My Portfolio'),
       ),
       body: const Center(
         child: Column(
@@ -101,7 +101,7 @@ class BusinessCard extends StatelessWidget {
               margin: EdgeInsets.symmetric(horizontal: 30.0),
               child: ListTile(
                 leading: Icon(FontAwesomeIcons.envelope),
-                title: Text('atul573.sharma@gmail.com.com'),
+                title: Text('atul573.sharma@gmail.com'),
               ),
             ),
             Card(
@@ -118,11 +118,12 @@ class BusinessCard extends StatelessWidget {
   }
 }
 
+
 ```
 
 ## Step 4: Prepare your assets
 
-1. Place an image named `profile_image.jpg` in the `assets` folder of your project. This image will be used as the business card owner's profile picture.
+1. Place an image named `profile_image.jpg` in the `assets` folder of your project. This image will be used as the Portfolio owner's profile picture.
 
 ## Step 5: Run the app
 
@@ -139,7 +140,7 @@ flutter run
 
 ## Conclusion
 
-Congratulations! You've just created a basic business card app using Flutter. You've learned how to use various widgets to build the user interface and display contact information like a business card. Feel free to enhance the app by adding more features and personalizing it to your liking.
+Congratulations! You've just created a basic Portfolio app using Flutter. You've learned how to use various widgets to build the user interface and display contact information like a Portfolio. Feel free to enhance the app by adding more features and personalizing it to your liking.
 
 You can find the complete source code for this codelab on [GitHub](https://github.com/atul573/flutter-businessCard).
 

@@ -2,24 +2,24 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 void main() {
-  runApp(BusinessCardApp());
+  runApp(Portfolio());
 }
 
-class BusinessCardApp extends StatelessWidget {
+class Portfolio extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: BusinessCard(),
+      home: PortfolioHome(),
     );
   }
 }
 
-class BusinessCard extends StatelessWidget {
+class PortfolioHome extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('My Business Card'),
+        title: Text('My Portfolio'),
       ),
       body: const Center(
         child: Column(
