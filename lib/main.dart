@@ -57,7 +57,7 @@ class BusinessCard extends StatelessWidget {
               margin: EdgeInsets.symmetric(horizontal: 30.0),
               child: ListTile(
                 leading: Icon(FontAwesomeIcons.envelope),
-                title: Text('atul573.sharma@gmail.com.com'),
+                title: Text('atul573.sharma@gmail.com'),
               ),
             ),
             Card(

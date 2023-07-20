@@ -18,6 +18,11 @@ Before you begin, ensure you have the following:
 flutter create business_card_app
 cd business_card_app
 ```
+## Step 1: Alternative 
+If you prefer not to set up the development environment locally, you can try this project on FlutLab. Follow these steps:
+1. Open Your FlutLab by clicking [here](https://flutlab.io/).
+
+2. Under "My Projects," you will find the "Hello World" project already created. You can use this project to follow the below instructions
 
 ## Step 2: Update `pubspec.yaml` file
 
@@ -27,7 +32,7 @@ cd business_card_app
 dependencies:
   flutter:
     sdk: flutter
-  font_awesome_flutter: ^9.2.0
+  font_awesome_flutter: ^10.5.0
 ```
 
 2. Save the file and run `flutter pub get` in your terminal to fetch the newly added dependencies.
@@ -60,17 +65,17 @@ class BusinessCard extends StatelessWidget {
       appBar: AppBar(
         title: Text('My Business Card'),
       ),
-      body: Center(
+      body: const Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             CircleAvatar(
               radius: 60.0,
-              backgroundImage: AssetImage('assets/profile_image.jpg'),
+              backgroundImage: AssetImage('images/profile.jpeg'),
             ),
             SizedBox(height: 20.0),
             Text(
-              'John Doe',
+              'Atul Sharma',
               style: TextStyle(
                 fontSize: 30.0,
                 fontWeight: FontWeight.bold,
@@ -81,7 +86,7 @@ class BusinessCard extends StatelessWidget {
               'Flutter Developer',
               style: TextStyle(
                 fontSize: 18.0,
-                color: Colors.grey[600],
+                color: Colors.grey,
               ),
             ),
             SizedBox(height: 20.0),
@@ -96,14 +101,14 @@ class BusinessCard extends StatelessWidget {
               margin: EdgeInsets.symmetric(horizontal: 30.0),
               child: ListTile(
                 leading: Icon(FontAwesomeIcons.envelope),
-                title: Text('johndoe@example.com'),
+                title: Text('atul573.sharma@gmail.com.com'),
               ),
             ),
             Card(
               margin: EdgeInsets.symmetric(horizontal: 30.0),
               child: ListTile(
                 leading: Icon(FontAwesomeIcons.globe),
-                title: Text('www.johndoe.com'),
+                title: Text('www.testdomain.com'),
               ),
             ),
           ],
@@ -112,6 +117,7 @@ class BusinessCard extends StatelessWidget {
     );
   }
 }
+
 ```
 
 ## Step 4: Prepare your assets
@@ -123,15 +129,18 @@ class BusinessCard extends StatelessWidget {
 1. Open your terminal or command prompt.
 2. Navigate to your project directory.
 3. Run the app using the following command:
-
 ```bash
 flutter run
 ```
+
+## Step 5: Run the app (In Case of FlutLab)
+1. click on the top-left icon to run the emulator.
+
 
 ## Conclusion
 
 Congratulations! You've just created a basic business card app using Flutter. You've learned how to use various widgets to build the user interface and display contact information like a business card. Feel free to enhance the app by adding more features and personalizing it to your liking.
 
-You can find the complete source code for this codelab on [GitHub](https://github.com/your-username/business_card_app).
+You can find the complete source code for this codelab on [GitHub](https://github.com/atul573/flutter-businessCard).
 
 Happy coding! 🚀
