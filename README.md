@@ -129,9 +129,9 @@ This is a simple Flutter code that creates a basic portfolio app with the develo
    - `font_awesome_flutter/font_awesome_flutter.dart` provides access to a collection of icons from the FontAwesome icon library.
 
 2. `main()` function:
-   - The entry point of the Flutter app. It calls the `runApp()` function to start the app by passing an instance of the `Portfolio` widget.
+   - The entry point of the Flutter app. It calls the `runApp()` function to start the app by passing an instance of the `MyApp` widget.
 
-3. `Portfolio` class:
+3. `MyApp` class:
    - A StatelessWidget that represents the root of the app.
    - It returns a MaterialApp widget, which is a container for the entire application and configures some basic settings for the app.
 
