@@ -18,7 +18,7 @@ Before you begin, ensure you have the following:
 flutter create business_card_app
 cd business_card_app
 ```
-## Step 1: Alternative 
+## Step 1: Create a new Flutter project (Alternative )
 If you prefer not to set up the development environment locally, you can try this project on FlutLab. Follow these steps:
 1. Open Your FlutLab by clicking [here](https://flutlab.io/).
 
